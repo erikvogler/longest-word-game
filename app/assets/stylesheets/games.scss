@@ -3,6 +3,12 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
 
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
 h1 {
   font-weight: 400;
   font-family: system-ui;
@@ -21,4 +27,8 @@ h1 {
     padding: 4px 12px;
     display: inline;
   }
+}
+
+.prefix {
+  margin-top: 2em;
 }
