@@ -1,0 +1,8 @@
+<h1>New Game</h1>
+
+<% @letters = Array.new(10) { ('A'..'Z').to_a.sample } %>
+<ul class="letters">
+  <% @letters.each do |letter| %>
+    <li><%= letter %></li>
+  <% end %>
+</ul>
